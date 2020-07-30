@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans';
+}
+header{
+    background: linear-gradient(to right, hsla(340, 81%, 48%, 0.479), hsla(317, 81%, 45%, 0.452)),url("../img/portadaaa.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.texts-header{
+    text-align: center;
+    color: white;
+}
+.texts-header h1{
+    font-size: 55px;
+    font-weight: 1000;
+    margin-top: 182px;
+    margin-bottom: 5px;
+}
+.texts-header h2{
+    font-size: 30px;
+    font-weight: 250;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.wave-ola{
+    margin-top: 65px;
+}
+nav{
+    text-align: right;
+    padding: 30px;
+}
+.hamburguesa{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    
+}
+.hamburguesa:hover{
+    text-decoration: underline;
+    color: white;
+    margin-right: 10px;
+    
+}
+.titulo{
+    color: rgb(88, 2, 88);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.nuestro-producto{
+    background: white;
+    margin-bottom:75px;
+}
+.nuestro-producto__img{
+    width: 475px;
+    margin-top: 35px;
+    margin-left: 195px;
+
+}
+.nuestro-producto__flex{
+    display: flex;
+    flex-direction: row;
+}
+article{
+    margin-top: 35px;
+
+}
+article b{
+    font-size: 25px;
+    font-size: 25px;
+}
+.number{
+    padding: 0 10px;
+    border-radius: 50%;
+    background: rgb(103, 8, 192);
+    color: white;
+    box-shadow:2px 1px 2px 1px hsla(0, 11%, 15%, 0.253);  
+}
+article p{
+    padding: 15px;
+    text-align: justify;
+    margin-right: 125px;
+    font-weight:lighter;
+    line-height:150%;
+
+}
+
+.nuestro-producto__flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.portafolio{
+    background: rgba(153, 139, 139, 0.157);
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+.imagenes div{
+    background-size: 100% 100%;
+    padding: 3px;
+    margin-right: 4px;
+}
+.img{
+    width: 275px;
+    height: 186px;
+    box-shadow: 0 4px 8px 0 hsla(0, 11%, 15%, 0.253), 0 6px 20px 0 hsla(0, 11%, 15%, 0.253); 
+}
+.portafolio h2{
+    padding: 50px;
+}
+.portafolio h4{
+    padding: 20px;
+}
+.valoraciones-clientes{
+    background: white;
+    padding: 75px;
+}
+.valoraciones-clientes__flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45px;
+}
+.clientes{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 60px;
+    box-shadow: 0 4px 8px 0 hsla(0, 11%, 15%, 0.253), 0 6px 20px 0 hsla(0, 11%, 15%, 0.253); 
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #6404c3;
+}
+.clientes p{
+    color: white;
+    margin-left: 50px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.clientes img{
+    width: 94px;
+    height: 94px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.servicios{
+    background: rgba(153, 139, 139, 0.157);
+
+}
+.servicios h2{
+    padding: 50px;
+}
+.servicio img{
+    height: 150px;
+    object-fit: cover;
+
+    margin-left: 110px;
+}
+.servicios__flex{
+    display: flex;
+}
+
+.servicio p{
+
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 75px;
+    line-height:175%;
+    text-align: justify;
+}
+.servicio > p > b{
+    font-size: 20px;
+    margin-left: 50px;
+}
+.contacto{
+    background: rgb(65, 63, 63);
+}
+.contacto__flex{
+    display: flex;
+    margin-left: 400px;
+}
+.datos{
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+.datos > hr{
+    margin: 2px;
+    border: 2px solid #7f21dd;
+    width: 75px;
+}
+.datos > b{
+    margin-left: 7px;
+}
+footer{
+    background: rgb(65, 63, 63);
+}
+footer h3{
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    color: white;
+    font-size: 25px;
+}
+h3 > hr{
+    margin-bottom: 40px;
+}
